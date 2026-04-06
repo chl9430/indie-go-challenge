@@ -1,0 +1,26 @@
+{
+  "weapons": [
+    {
+      "id": "1",
+      "name": "검",
+      "attack": 10
+    },
+    {
+      "id": "2",
+      "name": "활",
+      "attack": 5
+    }
+  ],
+  "armors": [
+    {
+      "id": "100",
+      "name": "헬멧",
+      "defense": 5
+    },
+    {
+      "id": "101",
+      "name": "갑옷",
+      "defense": 10
+    }
+  ]
+}
