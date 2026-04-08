@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Configuration;
 using UnityEngine;
-using static Define;
 
 public class BaseController : MonoBehaviour
 {
