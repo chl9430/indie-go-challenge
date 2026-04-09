@@ -42,6 +42,8 @@ public class MyPlayerController : CreatureController
 	{
 		base.UpdateController();
 
+        CheckFall();
+
         CheckGround();
 
         HandleTimers();
@@ -83,6 +85,14 @@ public class MyPlayerController : CreatureController
         //{
         //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
         //}
+    }
+
+    void CheckFall()
+    {
+        if (transform.position.y < -10f)
+        {
+            GetComponent<PlayerRespawn>().Die();
+        }
     }
 
     private void HandleMovement()
